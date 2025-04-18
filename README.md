@@ -18,6 +18,8 @@ Esta barra vertical à esquerda contém as principais opções de navegação:
 * **Recolher menu:** Minimiza ou expande este menu lateral.
 
 ## 2. Dentro da Aba de Chamados
+![Tela de Chamados](./src/img/chamados_screen.jpeg.jpeg)
+___
 
 ### 2.1 Barra de Filtros e Pesquisa
 Permite refinar a lista de chamados exibida.
@@ -47,7 +49,7 @@ Permite refinar a lista de chamados exibida.
 * **Navegação:** Informa o total de chamados encontrados e permite navegar entre as páginas de resultados.
 
 
-## 3. Área Principal: Visualização de Chamados
+## 3. 
 
 Esta é a área central onde os chamados são listados e gerenciados.
 
