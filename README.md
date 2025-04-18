@@ -46,7 +46,7 @@ Localizados abaixo da tabela.
 * **Navegação:** Informa o total de chamados encontrados e permite navegar entre as páginas de resultados.
 
 
-## 3. Tela de Criar Chamados 
+## 3. Dentro da Aba de Criar Chamados 
 ![Tela de Chamados](./src/img/created_calls.jpeg)
 ___
 
