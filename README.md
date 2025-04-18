@@ -1,114 +1,79 @@
-# Explaining-GLPI
+# Guia Rápido da Interface GLPI
 
-## O que é o GLPI?
+Este documento descreve as principais funcionalidades visíveis na tela de gerenciamento de chamados do GLPI, com base na imagem fornecida.
 
-GLPI (Gestionnaire Libre de Parc Informatique) é um sistema de gerenciamento de serviços de TI (ITSM) de código aberto que permite às organizações gerenciar seus recursos de TI de forma eficiente. É uma ferramenta completa para gerenciamento de ativos, helpdesk e inventário de TI.
+## 1. Menu Lateral Esquerdo
 
-## Principais Funcionalidades
+Esta barra vertical à esquerda contém as principais opções de navegação:
 
-### 1. Gerenciamento de Ativos
-- Inventário de hardware e software
-- Rastreamento de licenças
-- Gestão de contratos
-- Monitoramento de rede
-- Documentação de infraestrutura
+* **Home:** Leva para a página inicial do sistema.
+* **+ Criar um chamado:** Inicia o processo para abrir um novo ticket de suporte ou solicitação.
+* **Chamados:** Exibe a lista de chamados existentes (tela atual na imagem).
+* **Reservas:** (Se habilitado) Permite gerenciar reservas de itens ou recursos.
+* **FAQ:** Acesso à Base de Conhecimento ou Perguntas Frequentes.
+* **Recolher menu:** Minimiza ou expande este menu lateral.
 
-### 2. Helpdesk e Suporte
-- Sistema de tickets
-- Gestão de incidentes
-- Categorização de problemas
-- SLA (Service Level Agreement)
-- Automação de fluxos de trabalho
+## 2. Barra Superior
 
-### 3. Gestão de Projetos
-- Planejamento de projetos
-- Acompanhamento de tarefas
-- Alocação de recursos
-- Gantt charts
-- Relatórios de progresso
+Localizada no topo da página, contém:
 
-### 4. Inventário
-- Descoberta automática de ativos
-- Agente de inventário
-- Integração com OCS Inventory
-- Detalhamento de configurações
-- Histórico de alterações
+* **Caminho de Navegação (Breadcrumb):** Mostra sua localização atual no sistema (Ex: `Home / Chamados`).
+* **Botões de Ação Rápida:**
+    * `+`: Provavelmente para criar um novo item rapidamente (como um chamado).
+    * `Q` (Lupa): Atalho para uma função de busca.
+    * `☆`: Atalho para visualizações salvas ou itens favoritados.
+* **Informações do Usuário/Entidade:**
+    * `Self-Service`: Indica o perfil de acesso (neste caso, autoatendimento).
+    * `Entidade raiz`: Mostra a entidade (departamento, empresa) à qual o usuário pertence ou está visualizando.
+    * `AS` (Iniciais): Acesso ao perfil do usuário, configurações ou opção de logout.
 
-### 5. Relatórios e Dashboards
-- Relatórios personalizáveis
-- Gráficos e estatísticas
-- Exportação em múltiplos formatos
-- Indicadores de desempenho
-- Visualização de dados em tempo real
+## 3. Área Principal: Visualização de Chamados
 
-## Benefícios do GLPI
+Esta é a área central onde os chamados são listados e gerenciados.
 
-1. **Código Aberto**: Totalmente gratuito e com comunidade ativa
-2. **Personalizável**: Adaptável às necessidades específicas da organização
-3. **Multiplataforma**: Funciona em diferentes sistemas operacionais
-4. **Escalável**: Adequado para organizações de todos os tamanhos
-5. **Integração**: Compatível com diversas ferramentas e sistemas
+### 3.1. Filtros e Pesquisa
 
-## Requisitos do Sistema
+Permite refinar a lista de chamados exibida:
 
-- PHP 7.4 ou superior
-- MySQL 5.7 ou MariaDB 10.2
-- Servidor web (Apache, Nginx)
-- 2GB de RAM (mínimo)
-- 500MB de espaço em disco
+* **Dropdowns de Critérios:** Permitem selecionar campos (Ex: `Características - Status`) e valores (Ex: `é Novo`, `Todos`) para filtrar a lista. Pode-se adicionar múltiplos critérios.
+* **Botões `regra`, `regra global`, `grupo`:** Opções avançadas para combinar ou gerenciar regras de filtro.
+* **Botão `Pesquisar`:** Aplica os filtros selecionados à lista de chamados.
+* **Ícones `☆` e `👁️` (ao lado de Pesquisar):**
+    * `☆`: Provavelmente para salvar a configuração atual de filtros como uma visualização favorita.
+    * `👁️`: Possivelmente para gerenciar quais colunas são exibidas na tabela ou outras opções de visualização.
 
-## Instalação
+### 3.2. Barra de Ações da Tabela
 
-1. Baixe a última versão do GLPI do site oficial
-2. Extraia os arquivos no diretório do seu servidor web
-3. Configure as permissões dos diretórios
-4. Acesse a URL de instalação no navegador
-5. Siga o assistente de instalação
-6. Configure o banco de dados
-7. Crie o usuário administrador
+Acima da lista de chamados, contém ícones para realizar ações nos chamados selecionados:
 
-## Configuração Inicial
+* **(Checkbox):** Selecionar todos os chamados visíveis na página.
+* **(Lápis):** Editar o(s) chamado(s) selecionado(s).
+* **(Lixeira):** Excluir o(s) chamado(s) selecionado(s).
+* **(Lupa):** Visualizar detalhes do(s) chamado(s) selecionado(s).
+* **(Ícone com '...')** : Provavelmente oferece mais ações (atualizar, fundir, etc.). *Nota: O ícone exato pode variar.*
 
-1. **Configurar Perfis de Usuário**
-   - Definir níveis de acesso
-   - Configurar grupos
-   - Estabelecer regras de permissão
+### 3.3. Tabela de Chamados
 
-2. **Configurar Entidades**
-   - Definir estrutura organizacional
-   - Configurar hierarquia
-   - Estabelecer regras de visibilidade
+Exibe a lista de chamados com base nos filtros aplicados. As colunas comuns são:
 
-3. **Configurar Catálogo de Serviços**
-   - Definir tipos de tickets
-   - Configurar SLAs
-   - Estabelecer fluxos de trabalho
+* **ID:** Identificador único do chamado.
+* **TÍTULO:** Assunto ou breve descrição do chamado.
+* **STATUS:** Situação atual do chamado (Ex: Novo, Em atendimento, Pendente, Solucionado).
+* **ÚLTIMA ATUALIZAÇÃO:** Data e hora da modificação mais recente.
+* **DATA DE ABERTURA:** Quando o chamado foi criado.
+* **PRIORIDADE:** Nível de urgência do chamado (Ex: Baixa, Média, Alta).
+* **REQUERENTE:** Quem abriu o chamado.
+* **ATRIBUÍDO - TÉCNICO:** O técnico ou grupo responsável pelo atendimento.
+* **CATEGORIA:** Classificação do tipo de chamado.
+* **TEMPO PARA SOLUÇÃO:** Prazo (SLA) para resolver o chamado.
 
-## Boas Práticas
+### 3.4. Controles de Paginação
 
-1. **Manutenção Regular**
-   - Atualizações de segurança
-   - Backup do banco de dados
-   - Limpeza de dados antigos
+Abaixo da tabela:
 
-2. **Gestão de Usuários**
-   - Treinamento adequado
-   - Documentação clara
-   - Suporte contínuo
+* **Dropdown (Ex: `15`):** Permite escolher quantos chamados exibir por página.
+* **Texto (Ex: `Exibindo 1 a 1 de 1 linhas`):** Informa quantos itens estão sendo mostrados na página atual e o total de itens encontrados. (Na imagem, há apenas 1 chamado correspondente ao filtro).
 
-3. **Personalização**
-   - Adaptar às necessidades específicas
-   - Criar campos personalizados
-   - Desenvolver relatórios específicos
+---
 
-## Suporte e Comunidade
-
-- Fórum oficial do GLPI
-- Documentação online
-- Lista de discussão
-- GitHub para contribuições
-- Wiki com tutoriais
-
-## Conclusão
-
-O GLPI é uma ferramenta robusta e flexível para gerenciamento de serviços de TI, oferecendo uma solução completa para organizações que buscam otimizar seus processos de gestão de TI. Com sua natureza de código aberto e comunidade ativa, o GLPI continua evoluindo e se adaptando às necessidades do mercado.
+Este README fornece uma visão geral das funcionalidades presentes na interface da imagem. Funcionalidades específicas podem variar ligeiramente dependendo da versão do GLPI e das configurações personalizadas.
