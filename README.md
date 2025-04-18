@@ -23,7 +23,7 @@ ___
 
 ### 2.1 Barra de Filtros e Pesquisa
 Permite refinar a lista de chamados exibida.
-* **Filtros Predefinidos:** Botões/Dropdowns para filtrar por `Características`, `Status` e outros critérios (`Todos`).
+* **Filtros Predefinidos:** Botões para filtrar por `Características`, `Status` e outros critérios (`Todos`).
 * **Campo de Pesquisa:** Caixa para busca textual, com opções para `Limpar` a busca, aplicar `regra global` ou filtrar por `grupo` antes de clicar em `Pesquisar`.
 * **Ações de Visualização:** Ícones para salvar a pesquisa atual ou configurar a visualização.
 
