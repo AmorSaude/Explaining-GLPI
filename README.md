@@ -6,6 +6,8 @@ Este documento descreve as principais funcionalidades visíveis na tela de geren
 
 ## 1. Menu Lateral Esquerdo
 ![Aba Lateral](./src/img/aba_lateral.jpeg)
+___
+
 Esta barra vertical à esquerda contém as principais opções de navegação:
 
 * **Home:** Leva para a página inicial do sistema.
