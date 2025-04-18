@@ -19,33 +19,32 @@ Esta barra vertical à esquerda contém as principais opções de navegação:
 
 ## 3. Dentro da Aba de Chamados
 
-#3.1 Barra de Filtros e Pesquisa
-    * Permite refinar a lista de chamados exibida.
-    * **Filtros Predefinidos:** Botões/Dropdowns para filtrar por `Características`, `Status` e outros critérios (`Todos`).
-    * **Campo de Pesquisa:** Caixa para busca textual, com opções para `Limpar` a busca, aplicar `regra global` ou filtrar por `grupo` antes de clicar em `Pesquisar`.
-    * **Ações de Visualização:** Ícones para salvar a pesquisa atual ou configurar a visualização.
+### 3.1 Barra de Filtros e Pesquisa
+*Permite refinar a lista de chamados exibida.
+* **Filtros Predefinidos:** Botões/Dropdowns para filtrar por `Características`, `Status` e outros critérios (`Todos`).
+* **Campo de Pesquisa:** Caixa para busca textual, com opções para `Limpar` a busca, aplicar `regra global` ou filtrar por `grupo` antes de clicar em `Pesquisar`.
+* **Ações de Visualização:** Ícones para salvar a pesquisa atual ou configurar a visualização.
 
-#3.2 Tabela de Chamados
+### 3.2 Tabela de Chamados
+* *Ações em Massa:** Ícones acima da tabela permitem realizar ações em um ou mais chamados selecionados (ex: editar, excluir, vincular - *dependendo da funcionalidade exata dos ícones*).
+* **Listagem:** Exibe os chamados em formato de tabela com as seguintes colunas principais:
+* * Checkbox de seleção
+* `Título`: Assunto do chamado.
+* * `Status`: Situação atual do chamado (Ex: Novo, Em atendimento, Pendente, Solucionado, Fechado).
+* `Última Atualização`: Data e hora da última modificação.
+* `Data de Abertura`: Quando o chamado foi criado.
+* `Prioridade`: Nível de urgência (Ex: Baixa, Média, Alta, Urgente).
+* `Requerente`: Usuário que abriu o chamado.
+* `Atribuído - Técnico`: Técnico ou grupo responsável pelo atendimento.
+* `Categoria`: Classificação do chamado.
+* `Tempo para Solução`: Prazo estimado ou meta para resolução (SLA).
+* **Seleção:** Permite selecionar chamados individualmente ou todos de uma vez para ações em massa.
 
- **Ações em Massa:** Ícones acima da tabela permitem realizar ações em um ou mais chamados selecionados (ex: editar, excluir, vincular - *dependendo da funcionalidade exata dos ícones*).
-    * **Listagem:** Exibe os chamados em formato de tabela com as seguintes colunas principais:
-        * Checkbox de seleção
-        * `Título`: Assunto do chamado.
-        * `Status`: Situação atual do chamado (Ex: Novo, Em atendimento, Pendente, Solucionado, Fechado).
-        * `Última Atualização`: Data e hora da última modificação.
-        * `Data de Abertura`: Quando o chamado foi criado.
-        * `Prioridade`: Nível de urgência (Ex: Baixa, Média, Alta, Urgente).
-        * `Requerente`: Usuário que abriu o chamado.
-        * `Atribuído - Técnico`: Técnico ou grupo responsável pelo atendimento.
-        * `Categoria`: Classificação do chamado.
-        * `Tempo para Solução`: Prazo estimado ou meta para resolução (SLA).
-    * **Seleção:** Permite selecionar chamados individualmente ou todos de uma vez para ações em massa.
-
-#3.3 Controles de Paginação
-    **Controles de Paginação:**
-    * Localizados abaixo da tabela.
-    * **Linhas por Página:** Dropdown para selecionar quantos chamados serão exibidos por página (Ex: 15, 30, 50).
-    * **Navegação:** Informa o total de chamados encontrados e permite navegar entre as páginas de resultados.
+### 3.3 Controles de Paginação
+**Controles de Paginação:**
+* Localizados abaixo da tabela.
+* **Linhas por Página:** Dropdown para selecionar quantos chamados serão exibidos por página (Ex: 15, 30, 50).
+* **Navegação:** Informa o total de chamados encontrados e permite navegar entre as páginas de resultados.
 
 
 ## 3. Área Principal: Visualização de Chamados
