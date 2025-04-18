@@ -11,21 +11,21 @@ ___
 Esta barra vertical à esquerda contém as principais opções de navegação:
 
 * **Home:** Leva para a página inicial do sistema.
-* **+ Criar um chamado:** Inicia o processo para abrir um novo ticket de suporte ou solicitação.
+* **Criar um chamado:** Inicia o processo para abrir um novo ticket de suporte ou solicitação.
 * **Chamados:** Exibe a lista de chamados existentes (tela atual na imagem).
 * **Reservas:** (Se habilitado) Permite gerenciar reservas de itens ou recursos.
 * **FAQ:** Acesso à Base de Conhecimento ou Perguntas Frequentes.
 * **Recolher menu:** Minimiza ou expande este menu lateral.
 
-## 3. Dentro da Aba de Chamados
+## 2. Dentro da Aba de Chamados
 
-### 3.1 Barra de Filtros e Pesquisa
-*Permite refinar a lista de chamados exibida.
+### 2.1 Barra de Filtros e Pesquisa
+Permite refinar a lista de chamados exibida.
 * **Filtros Predefinidos:** Botões/Dropdowns para filtrar por `Características`, `Status` e outros critérios (`Todos`).
 * **Campo de Pesquisa:** Caixa para busca textual, com opções para `Limpar` a busca, aplicar `regra global` ou filtrar por `grupo` antes de clicar em `Pesquisar`.
 * **Ações de Visualização:** Ícones para salvar a pesquisa atual ou configurar a visualização.
 
-### 3.2 Tabela de Chamados
+### 2.2 Tabela de Chamados
 * *Ações em Massa:** Ícones acima da tabela permitem realizar ações em um ou mais chamados selecionados (ex: editar, excluir, vincular - *dependendo da funcionalidade exata dos ícones*).
 * **Listagem:** Exibe os chamados em formato de tabela com as seguintes colunas principais:
 * * Checkbox de seleção
@@ -40,7 +40,7 @@ Esta barra vertical à esquerda contém as principais opções de navegação:
 * `Tempo para Solução`: Prazo estimado ou meta para resolução (SLA).
 * **Seleção:** Permite selecionar chamados individualmente ou todos de uma vez para ações em massa.
 
-### 3.3 Controles de Paginação
+### 2.3 Controles de Paginação
 **Controles de Paginação:**
 * Localizados abaixo da tabela.
 * **Linhas por Página:** Dropdown para selecionar quantos chamados serão exibidos por página (Ex: 15, 30, 50).
