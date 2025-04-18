@@ -2,10 +2,10 @@
 ![GUI](./src/img/main_gui.jpeg)
 ___
 
-Este documento descreve as principais funcionalidades visíveis na tela de gerenciamento de chamados do GLPI, com base na imagem fornecida.
+Este documento descreve as principais funcionalidades visíveis na tela de gerenciamento de chamados do GLPI.
 
 ## 1. Menu Lateral Esquerdo
-
+![Aba Lateral](./src/img/aba_lateral.jpeg)
 Esta barra vertical à esquerda contém as principais opções de navegação:
 
 * **Home:** Leva para a página inicial do sistema.
