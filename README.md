@@ -47,6 +47,8 @@ Localizados abaixo da tabela.
 
 
 ## 3. Tela de Criar Chamados 
+![Tela de Chamados](./src/img/created_calls.jpeg)
+___
 
 Esta é a área central onde os chamados são listados e gerenciados.
 
