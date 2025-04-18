@@ -28,8 +28,7 @@ Permite refinar a lista de chamados exibida.
 * **Ações de Visualização:** Ícones para salvar a pesquisa atual ou configurar a visualização.
 
 ### 2.2 Tabela de Chamados
-* *Ações em Massa:** Ícones acima da tabela permitem realizar ações em um ou mais chamados selecionados (ex: editar, excluir, vincular - *dependendo da funcionalidade exata dos ícones*).
-* **Listagem:** Exibe os chamados em formato de tabela com as seguintes colunas principais:
+* `ID`: Exibe a numeração do chamado
 * `Título`: Assunto do chamado.
 * `Status`: Situação atual do chamado (Ex: Novo, Em atendimento, Pendente, Solucionado, Fechado).
 * `Última Atualização`: Data e hora da última modificação.
@@ -39,11 +38,10 @@ Permite refinar a lista de chamados exibida.
 * `Atribuído - Técnico`: Técnico ou grupo responsável pelo atendimento.
 * `Categoria`: Classificação do chamado.
 * `Tempo para Solução`: Prazo estimado ou meta para resolução (SLA).
-* **Seleção:** Permite selecionar chamados individualmente ou todos de uma vez para ações em massa.
+* `Seleção`: Permite selecionar chamados individualmente ou todos de uma vez para ações em massa.
 
 ### 2.3 Controles de Paginação
-**Controles de Paginação:**
-* Localizados abaixo da tabela.
+Localizados abaixo da tabela.
 * **Linhas por Página:** Dropdown para selecionar quantos chamados serão exibidos por página (Ex: 15, 30, 50).
 * **Navegação:** Informa o total de chamados encontrados e permite navegar entre as páginas de resultados.
 
