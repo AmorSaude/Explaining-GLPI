@@ -18,7 +18,7 @@ Esta barra vertical à esquerda contém as principais opções de navegação:
 * **Recolher menu:** Minimiza ou expande este menu lateral.
 
 ## 2. Dentro da Aba de Chamados
-![Tela de Chamados](./src/img/chamados_screen.jpeg.jpeg)
+![Tela de Chamados](./src/img/chamados_screen.jpeg)
 ___
 
 ### 2.1 Barra de Filtros e Pesquisa
