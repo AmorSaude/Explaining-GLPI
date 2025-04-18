@@ -1,3 +1,5 @@
+![GUI](./src/img/.png)
+
 # Guia Rápido da Interface GLPI
 
 Este documento descreve as principais funcionalidades visíveis na tela de gerenciamento de chamados do GLPI, com base na imagem fornecida.
