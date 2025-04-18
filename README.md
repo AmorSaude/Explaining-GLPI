@@ -30,9 +30,8 @@ Permite refinar a lista de chamados exibida.
 ### 2.2 Tabela de Chamados
 * *Ações em Massa:** Ícones acima da tabela permitem realizar ações em um ou mais chamados selecionados (ex: editar, excluir, vincular - *dependendo da funcionalidade exata dos ícones*).
 * **Listagem:** Exibe os chamados em formato de tabela com as seguintes colunas principais:
-* * Checkbox de seleção
 * `Título`: Assunto do chamado.
-* * `Status`: Situação atual do chamado (Ex: Novo, Em atendimento, Pendente, Solucionado, Fechado).
+* `Status`: Situação atual do chamado (Ex: Novo, Em atendimento, Pendente, Solucionado, Fechado).
 * `Última Atualização`: Data e hora da última modificação.
 * `Data de Abertura`: Quando o chamado foi criado.
 * `Prioridade`: Nível de urgência (Ex: Baixa, Média, Alta, Urgente).
