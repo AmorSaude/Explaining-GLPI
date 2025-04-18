@@ -1,4 +1,4 @@
-![GUI](./src/img/.jpeg)
+![GUI](./src/img/main_gui.jpeg)
 
 # Guia Rápido da Interface GLPI
 
