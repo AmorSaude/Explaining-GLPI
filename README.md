@@ -64,15 +64,13 @@ Esta tela permite ao usuário registrar um novo chamado, seja um incidente ou um
 | **Arquivos**           | Área para anexar arquivos (limite de 40 MB). Pode arrastar ou escolher.   |
 
 
-**Editor de Texto da Descrição**: Possui opções básicas de formatação como **negrito**, *itálico*, e mais.
-**Botão "Enviar mensagem"**: Envia o chamado com as informações preenchidas.
+`Editor de Texto da Descrição`: Possui opções básicas de formatação como **negrito**, *itálico*, e mais.
+`Botão "Enviar mensagem`: Envia o chamado com as informações preenchidas.
 
 ### 3.1 Observações
 
 - Os campos obrigatórios são marcados com `*`.
 - O campo **Descrição** é indispensável para enviar o chamado.
 - O botão **Escolher arquivos** permite o upload de documentos de apoio como prints, logs ou relatórios.
-
----
 
 Este README fornece uma visão geral das funcionalidades presentes na interface da imagem. Funcionalidades específicas podem variar ligeiramente dependendo da versão do GLPI e das configurações personalizadas.
