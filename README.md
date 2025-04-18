@@ -50,50 +50,28 @@ Localizados abaixo da tabela.
 ![Tela de Chamados](./src/img/created_calls.jpeg)
 ___
 
-Esta é a área central onde os chamados são listados e gerenciados.
+Esta tela permite ao usuário registrar um novo chamado, seja um incidente ou uma requisição. A interface é simples e direta, garantindo que todas as informações necessárias sejam preenchidas corretamente.
 
-### 3.1. Filtros e Pesquisa
+| Campo                  | Descrição                                                                 |
+|------------------------|---------------------------------------------------------------------------|
+| **Tipo**               | Define o tipo do chamado: `Incidente` ou `Requisição`.                    |
+| **Categoria**          | Classificação do chamado de acordo com as categorias definidas.           |
+| **Urgência**           | Nível de urgência do chamado (`Baixa`, `Média`, `Alta`).                  |
+| **Elementos Associados** | Permite associar itens ou ativos relacionados ao chamado.               |
+| **Observadores**       | Campo para adicionar usuários que devem acompanhar o chamado.             |
+| **Título**             | Assunto resumido do chamado.                                              |
+| **Descrição**          | Campo obrigatório para detalhar o problema ou a solicitação.              |
+| **Arquivos**           | Área para anexar arquivos (limite de 40 MB). Pode arrastar ou escolher.   |
 
-Permite refinar a lista de chamados exibida:
 
-* **Dropdowns de Critérios:** Permitem selecionar campos (Ex: `Características - Status`) e valores (Ex: `é Novo`, `Todos`) para filtrar a lista. Pode-se adicionar múltiplos critérios.
-* **Botões `regra`, `regra global`, `grupo`:** Opções avançadas para combinar ou gerenciar regras de filtro.
-* **Botão `Pesquisar`:** Aplica os filtros selecionados à lista de chamados.
-* **Ícones `☆` e `👁️` (ao lado de Pesquisar):**
-    * `☆`: Provavelmente para salvar a configuração atual de filtros como uma visualização favorita.
-    * `👁️`: Possivelmente para gerenciar quais colunas são exibidas na tabela ou outras opções de visualização.
+**Editor de Texto da Descrição**: Possui opções básicas de formatação como **negrito**, *itálico*, e mais.
+**Botão "Enviar mensagem"**: Envia o chamado com as informações preenchidas.
 
-### 3.2. Barra de Ações da Tabela
+### 3.1 Observações
 
-Acima da lista de chamados, contém ícones para realizar ações nos chamados selecionados:
-
-* **(Checkbox):** Selecionar todos os chamados visíveis na página.
-* **(Lápis):** Editar o(s) chamado(s) selecionado(s).
-* **(Lixeira):** Excluir o(s) chamado(s) selecionado(s).
-* **(Lupa):** Visualizar detalhes do(s) chamado(s) selecionado(s).
-* **(Ícone com '...')** : Provavelmente oferece mais ações (atualizar, fundir, etc.). *Nota: O ícone exato pode variar.*
-
-### 3.3. Tabela de Chamados
-
-Exibe a lista de chamados com base nos filtros aplicados. As colunas comuns são:
-
-* **ID:** Identificador único do chamado.
-* **TÍTULO:** Assunto ou breve descrição do chamado.
-* **STATUS:** Situação atual do chamado (Ex: Novo, Em atendimento, Pendente, Solucionado).
-* **ÚLTIMA ATUALIZAÇÃO:** Data e hora da modificação mais recente.
-* **DATA DE ABERTURA:** Quando o chamado foi criado.
-* **PRIORIDADE:** Nível de urgência do chamado (Ex: Baixa, Média, Alta).
-* **REQUERENTE:** Quem abriu o chamado.
-* **ATRIBUÍDO - TÉCNICO:** O técnico ou grupo responsável pelo atendimento.
-* **CATEGORIA:** Classificação do tipo de chamado.
-* **TEMPO PARA SOLUÇÃO:** Prazo (SLA) para resolver o chamado.
-
-### 3.4. Controles de Paginação
-
-Abaixo da tabela:
-
-* **Dropdown (Ex: `15`):** Permite escolher quantos chamados exibir por página.
-* **Texto (Ex: `Exibindo 1 a 1 de 1 linhas`):** Informa quantos itens estão sendo mostrados na página atual e o total de itens encontrados. (Na imagem, há apenas 1 chamado correspondente ao filtro).
+- Os campos obrigatórios são marcados com `*`.
+- O campo **Descrição** é indispensável para enviar o chamado.
+- O botão **Escolher arquivos** permite o upload de documentos de apoio como prints, logs ou relatórios.
 
 ---
 
