@@ -74,5 +74,5 @@ Esta tela permite ao usuário registrar um novo chamado, seja um incidente ou um
 - O botão **Escolher arquivos** permite o upload de documentos de apoio como prints, logs ou relatórios.
 ___
 
-4 FAQ - Perguntas frequentes
+## 4 FAQ - Perguntas frequentes
 
