@@ -75,4 +75,7 @@ Esta tela permite ao usuário registrar um novo chamado, seja um incidente ou um
 ___
 
 ## 4 FAQ - Perguntas frequentes
+![Tela FAQ](./src/img/screenFaq.jpeg)
+---
+Essa tela permite vizualizar 
 
