@@ -79,4 +79,4 @@ ___
 ---
 Essa tela permite vizualizar a aba de perguntas frequentes, sendo possível ver todas especificadamente, ou até mesmo pesquisar por uma em específico.
 
-## 5 
+## 5 Reservas - Futura Funcionalidade
